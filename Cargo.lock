@@ -96,8 +96,7 @@ dependencies = [
 [[package]]
 name = "fixed-hash"
 version = "0.7.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "cfcf0ed7fe52a17a03854ec54a9f76d6d84508d1c0e66bc1793301c73fc8493c"
+source = "git+https://github.com/gakonst/parity-common?branch=trim#b7b371fdfcdb932881fff7907fc6989d0b6f5334"
 dependencies = [
  "static_assertions",
 ]
@@ -187,8 +186,7 @@ checksum = "d1a3ea4f0dd7f1f3e512cf97bf100819aa547f36a6eccac8dbaae839eb92363e"
 [[package]]
 name = "primitive-types"
 version = "0.11.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e28720988bff275df1f51b171e1b2a18c30d194c4d2b61defdacecd625a5d94a"
+source = "git+https://github.com/gakonst/parity-common?branch=trim#b7b371fdfcdb932881fff7907fc6989d0b6f5334"
 dependencies = [
  "fixed-hash",
  "uint",
@@ -320,9 +318,8 @@ dependencies = [
 
 [[package]]
 name = "uint"
-version = "0.9.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "6470ab50f482bde894a037a57064480a246dbfdd5960bd65a44824693f08da5f"
+version = "0.9.3"
+source = "git+https://github.com/gakonst/parity-common?branch=trim#b7b371fdfcdb932881fff7907fc6989d0b6f5334"
 dependencies = [
  "byteorder",
  "crunchy",
